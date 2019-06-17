@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-areas: 'header header header header'
+                         'section section section section'
+                         'aside aside aside aside';
+    grid-template-rows: 15vh 70vh 10vh;
+    grid-template-columns: 15% 25% 25%;
+    
+}
+
+header{
+    grid-area: header;
+    background-color: red;
+    text-decoration-color: white;
+    font-size: 12;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.titulo1{
+    color: black;
+    
+    
+}
+.titulo2{
+    color: whitesmoke;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    grid-area: section;
+    background-color: whitesmoke;
+}
+
+aside{
+    grid-area: aside;
+    background-color: black;
+}
+
+img{
+    height: 150px;
+    width: 100px;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+}
+
+.face{
+    display: none;
+
+}
+.virada{
+    display: none;
+}
+
